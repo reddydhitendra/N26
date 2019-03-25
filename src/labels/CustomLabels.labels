@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CRYPTO_KEY</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CRYPTO_KEY</shortDescription>
+        <value>YOE3OX3g99d7sZBj9Wht2Q==</value>
+    </labels>
+    <labels>
+        <fullName>Daily_Email_Limit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Daily Email Limit</shortDescription>
+        <value>500</value>
+    </labels>
+    <labels>
+        <fullName>English_Mail_Greetings</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>English_Mail_Greetings</shortDescription>
+        <value>, please fill out our survey:</value>
+    </labels>
+    <labels>
+        <fullName>German</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>German</shortDescription>
+        <value>de</value>
+    </labels>
+    <labels>
+        <fullName>German_Mail_Greetings</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>German_Mail_Greetings</shortDescription>
+        <value>bitte fülle unsere Umfrage aus:</value>
+    </labels>
+    <labels>
+        <fullName>Survey_Email_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Email Subject</shortDescription>
+        <value>N26 Customer Survey</value>
+    </labels>
+    <labels>
+        <fullName>Suvery_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Suvery URL</shortDescription>
+        <value>http://n26.com/survey/</value>
+    </labels>
+</CustomLabels>

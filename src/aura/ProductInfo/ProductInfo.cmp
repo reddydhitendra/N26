@@ -1,0 +1,32 @@
+<!-- 
+  Date: 15/03/2019
+  Author: Dhitendra Reddy
+  Component Name: ProductInfo
+  Description: This is the lightining component to display Customer product information on case layout
+-->
+<aura:component controller="ProductInfoController"
+                implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="ProductInfo" type="Contact" default="{'sobjectType':'Contact'}" />
+    <aura:attribute name="products" type="Product__c[]"  />
+    <lightning:card footer="" title="Product Info" iconName="standard:account">
+        <aura:set attribute="actions">
+            <!--<lightning:button label="View"/>-->
+        </aura:set>
+        <p class="slds-p-horizontal_small">
+            <b>Customer Name: </b>{!v.ProductInfo.Name}
+            <br />
+            
+            <b>Product: </b>{!v.ProductInfo.Product__c}
+            <br />
+            
+            <b>Home Country: </b>{!v.ProductInfo.Home_Country__c}
+            <br />
+            <aura:iteration items="{!v.products}" var="item">
+               <b>{!item.RecordType.Name}</b>: {!item.Price__c}
+                <br />
+            </aura:iteration>
+        </p>
+    </lightning:card>
+    
+</aura:component>
